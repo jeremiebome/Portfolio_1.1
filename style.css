@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@200;400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #d3d9d9;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 10%;
+  box-shadow: 0 8px 40px 0 rgba(0, 0, 0, 0.27);
+  border-bottom: 1px solid #000;
+}
+
+
+nav {
+  width: 50%;
+}
+
+nav>ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.7)
+}
+
+#active {
+  color: rgba(0, 0, 0, 1)
+}
+
+#logo {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+nav>ul>li>a {
+  font-size: 28px;
+  font-weight: 400;
+}
+
+/*Debut du hero section */
+main {
+  margin: 0 10%;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 5%;
+  font-family: Sora, Arial, sans-serif;
+}
+
+.Info {
+  margin: 10% 0;
+}
+
+.Info .bloctext {
+  margin-bottom: 20px;
+}
+
+.bloctext p {
+  font-weight: 400;
+  font-Size: 24px;
+  Line-height: 30.24px;
+}
+
+.bloctext h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.hi {
+  color: #457B9D;
+}
+
+.blocButton {
+  display: flex;
+}
+
+.blocButton button {
+  width: 30%;
+  text-align: center;
+  margin-right: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  background: rgba(69, 123, 157, 0.1);
+  border: solid 1px #457B9D;
+  font-size: 18px;
+}
+
+.blocButton .dload {
+  display: inline-flex;
+  justify-content: center;
+  margin-left: 5px;
+  padding-left: 5px;
+  align-items: center;
+  background-color: #457B9D;
+  color: #fff;
+}
+
+.blocImg {
+  height: 400px;
+  background-color: #457B9D;
+  border-radius: 20px;
+
+}
+
+.imgrh {
+  width: 400px;
+  margin-top: -107px;
+  box-sizing: border-box;
+}
+
+
+/*fin du hero section */
+
+/*Debut de la img section*/
+
+
+
+
+/*fin de img section*/
+/*Debut section text*/
+
+.code {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #FFFFFF;
+  ;
+
+}
+
+.codeim {
+  width: 40%;
+  padding-left: 145px;
+  padding-top: 58px;
+  padding-bottom: 58px;
+}
+
+.text {
+  width: 40%;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text>h2 {
+  font-family: sora;
+  font-weight: 600px;
+  font-size: 24px;
+  line-height: 30.24px;
+}
+
+.abt {
+  border-radius: nullpx;
+  font-family: Sora;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #457B9D;
+  padding-bottom: 15px;
+  padding-top: 129px;
+
+
+}
+
+.paragraphe {
+  font-family: sora;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25.2px;
+  text-align: justify;
+  color: #000000;
+  padding-right: 144px;
+  padding-bottom: 20px;
+
+}
+
+.about {
+  border-radius: nullpx;
+  font-family: Sora;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: justified;
+  color: #000000;
+  padding-bottom: 15px;
+
+}
